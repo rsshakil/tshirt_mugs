@@ -1,0 +1,24 @@
+{
+  "name": "woopay-jp",
+  "description": "Add Pay.JP payment gateway to WooCommerce",
+  "version": "1.1.0",
+  "lisence": "GPLv3+",
+  "authors": [
+    {
+      "name": "fumikito",
+      "email": "guy@hametuha.com"
+    }
+  ],
+  "autoload": {
+    "psr-0": {
+      "Hametuha\\WooCommerce\\Service\\WooPayJp": "app/"
+    }
+  },
+  "require": {
+    "php": ">=5.4",
+    "payjp/payjp-php": "0.0.x",
+    "hametuha/hametwoo": "~0.8",
+    "hametuha/sekisyo": "dev-master"
+  },
+  "minimum-stability": "stable"
+}

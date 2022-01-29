@@ -1,0 +1,11 @@
+[
+"upload_facebook.php",
+"addons/admin/config/facebook.php",
+"addons/admin/language/upload-facebook.ini",
+"addons/install/upload-facebook.json",
+"addons/js/upload_facebook.js",
+"addons/language/facebook.ini",
+"addons/remove/upload-facebook.json",
+"addons/upload-content/upload_facebook.php",
+"addons/upload-label/upload_facebook.php"
+]

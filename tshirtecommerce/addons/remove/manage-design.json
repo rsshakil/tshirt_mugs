@@ -1,0 +1,10 @@
+[
+"addons/admin/css/user_design.css",
+"addons/admin/language/user_design.ini",
+"addons/admin/menu/user_design.php",
+"admin/controllers/design.php",
+"admin/view/admin_design_manage.php",
+"admin/view/user_design_manage.php",
+"addons/install/manage-design.json",
+"addons/remove/manage-design.json"
+]

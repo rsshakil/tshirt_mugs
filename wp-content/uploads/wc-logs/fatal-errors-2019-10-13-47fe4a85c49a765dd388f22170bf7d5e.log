@@ -1,0 +1,9 @@
+2019-10-13T01:34:17-07:00 CRITICAL Uncaught Error: Call to a member function is_type() on bool in /var/www/html/tshirtecommerce/platforms/wordpress/ajax.php:228
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(286): P9f_ajax->get_variations('')
+#1 /var/www/html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /var/www/html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-admin/admin-ajax.php(182): do_action('wp_ajax_nopriv_...')
+#4 {main}
+  thrown in /var/www/html/tshirtecommerce/platforms/wordpress/ajax.php on line 228
+

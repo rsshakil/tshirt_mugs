@@ -1,0 +1,726 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooPay.JP\n"
+"POT-Creation-Date: 2018-09-26 12:32+0900\n"
+"PO-Revision-Date: 2018-09-26 12:43+0900\n"
+"Last-Translator: Takahashi Fumiki <takahashi.fumiki@hametuha.co.jp>\n"
+"Language-Team: Takahashi Fumiki <takahashi.fumiki@hametuha.co.jp>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: node_modules\n"
+"X-Poedit-SearchPathExcluded-1: assets\n"
+"X-Poedit-SearchPathExcluded-2: vendor\n"
+
+#: app/Hametuha/WooCommerce/Service/WooPayJp/BootStrap.php:85
+msgid "Payment for Pay.JP has been captured."
+msgstr "Pay.JPでのお支払いが確定されました。"
+
+#: app/Hametuha/WooCommerce/Service/WooPayJp/BootStrap.php:102
+msgid "Expired"
+msgstr "期限"
+
+#: app/Hametuha/WooCommerce/Service/WooPayJp/BootStrap.php:123
+msgid "Payment Limit:"
+msgstr "支払い期限:"
+
+#: app/Hametuha/WooCommerce/Service/WooPayJp/BootStrap.php:126
+#, php-format
+msgid "This order's payment should be captured until %s!"
+msgstr "この注文の支払いは %s までに確定していないければなりません！"
+
+#: app/Hametuha/WooCommerce/Service/WooPayJp/BootStrap.php:190
+msgid "This order is failed because of payment limit expiration."
+msgstr "この支払いは注文期限を過ぎたため、失敗しました。"
+
+#: app/Hametuha/WooCommerce/Service/WooPayJp/CardManager.php:45
+msgid "Are you sure to delete this card?"
+msgstr "このカードを削除してよろしいですか？"
+
+#: app/Hametuha/WooCommerce/Service/WooPayJp/CardManager.php:46
+#: app/Hametuha/WooCommerce/Service/WooPayJp/CardManager.php:176
+msgid "Failed to delete Credit card."
+msgstr "クレジットカードの削除に失敗しました。"
+
+#: app/Hametuha/WooCommerce/Service/WooPayJp/CardManager.php:47
+msgid "Failed to add Credit card."
+msgstr "クレジットカードの追加に失敗しました。"
+
+#: app/Hametuha/WooCommerce/Service/WooPayJp/CardManager.php:48
+#: app/Hametuha/WooCommerce/Service/WooPayJp/CardManager.php:149
+#: app/Hametuha/WooCommerce/Service/WooPayJp/GateWay/CreditCard.php:309
+msgid "Register Card"
+msgstr "カードを登録"
+
+#: app/Hametuha/WooCommerce/Service/WooPayJp/CardManager.php:88
+msgid "Remove"
+msgstr "﻿削除"
+
+#: app/Hametuha/WooCommerce/Service/WooPayJp/CardManager.php:91
+msgid "Undeletable"
+msgstr "削除不可"
+
+#: app/Hametuha/WooCommerce/Service/WooPayJp/CardManager.php:92
+msgid "Using"
+msgstr "使用中"
+
+#: app/Hametuha/WooCommerce/Service/WooPayJp/CardManager.php:115
+msgid "Card Number"
+msgstr "﻿カード番号"
+
+#: app/Hametuha/WooCommerce/Service/WooPayJp/CardManager.php:118
+msgid "Expiry (MM/YY)"
+msgstr "﻿有効期限（月/年）"
+
+#: app/Hametuha/WooCommerce/Service/WooPayJp/CardManager.php:121
+msgid "Default"
+msgstr "﻿デフォルト"
+
+#: app/Hametuha/WooCommerce/Service/WooPayJp/CardManager.php:124
+msgid "Action"
+msgstr "アクション"
+
+#: app/Hametuha/WooCommerce/Service/WooPayJp/CardManager.php:135
+msgid "No credit card is registered."
+msgstr "クレジットカードは登録されていません。"
+
+#: app/Hametuha/WooCommerce/Service/WooPayJp/CardManager.php:137
+msgid "Register New Credit Card"
+msgstr "新しいクレジットカードを登録"
+
+#: app/Hametuha/WooCommerce/Service/WooPayJp/CardManager.php:150
+msgid "Register This Card"
+msgstr "このカードを登録"
+
+#: app/Hametuha/WooCommerce/Service/WooPayJp/CardManager.php:168
+msgid "This card is not deletable."
+msgstr "このカードは削除できません。"
+
+#: app/Hametuha/WooCommerce/Service/WooPayJp/CardManager.php:218
+#: app/Hametuha/WooCommerce/Service/WooPayJp/GateWay/Error.php:90
+msgid "Invalid access."
+msgstr "不正なアクセスです。"
+
+#: app/Hametuha/WooCommerce/Service/WooPayJp/GateWay/CreditCard.php:46
+#, php-format
+msgid ""
+"Payment Gateway by Pay.JP. You have to create account at <a href=\"%s\">Pay "
+"JP</a>."
+msgstr ""
+"Pay.JPのペイメントゲートウェイです。アカウントを<a href=\"%s\">Pay.JP</a>で作"
+"成する必要があります。"
+
+#: app/Hametuha/WooCommerce/Service/WooPayJp/GateWay/CreditCard.php:54
+msgid "Credit Card"
+msgstr "クレジットカード"
+
+#: app/Hametuha/WooCommerce/Service/WooPayJp/GateWay/CreditCard.php:55
+msgid "Pay with credit card via Pay.JP."
+msgstr "Pay.JPを利用してクレジットカード支払いをします。"
+
+#: app/Hametuha/WooCommerce/Service/WooPayJp/GateWay/CreditCard.php:68
+msgid ""
+"Failed to complete Apple Pay session. Please try again later or try another "
+"payment."
+msgstr ""
+"Apple Payの処理を完了できませんでした。あとでやり直すか、別の支払い方法をお試"
+"しください。"
+
+#: app/Hametuha/WooCommerce/Service/WooPayJp/GateWay/CreditCard.php:69
+msgid "Authorized with Apple Pay"
+msgstr "Apple Pay認証済み"
+
+#: app/Hametuha/WooCommerce/Service/WooPayJp/GateWay/CreditCard.php:70
+msgid ""
+"You cannot use this card brand via Apple Pay at the moment. Please use other "
+"brand or enter card number."
+msgstr ""
+"現在Apple Payでこのカードブランドを利用することはできません。他のブランドをご"
+"利用いただくか、カード番号を入力してください。"
+
+#: app/Hametuha/WooCommerce/Service/WooPayJp/GateWay/CreditCard.php:112
+msgid "Public key and private key are required."
+msgstr "公開鍵と秘密鍵が必須です。"
+
+#: app/Hametuha/WooCommerce/Service/WooPayJp/GateWay/CreditCard.php:124
+msgid "Enable/Disable"
+msgstr "﻿有効化/無効化"
+
+#: app/Hametuha/WooCommerce/Service/WooPayJp/GateWay/CreditCard.php:125
+msgid "Enable Pay.JP Payment Gateway."
+msgstr "﻿Pay.JPペイメントゲートウェイを有効にします。"
+
+#: app/Hametuha/WooCommerce/Service/WooPayJp/GateWay/CreditCard.php:131
+msgid "Title"
+msgstr "タイトル"
+
+#: app/Hametuha/WooCommerce/Service/WooPayJp/GateWay/CreditCard.php:133
+msgid "This controls the title which the user sees during checkout."
+msgstr "決済時にユーザーに表示される決済名を設定します。"
+
+#: app/Hametuha/WooCommerce/Service/WooPayJp/GateWay/CreditCard.php:134
+msgid "Credit card"
+msgstr "クレジットカード"
+
+#: app/Hametuha/WooCommerce/Service/WooPayJp/GateWay/CreditCard.php:138
+msgid "Description"
+msgstr "﻿説明"
+
+#: app/Hametuha/WooCommerce/Service/WooPayJp/GateWay/CreditCard.php:140
+msgid "This controls the description which the user sees during checkout."
+msgstr "﻿決済時にユーザーに表示される詳細を設定します。"
+
+#: app/Hametuha/WooCommerce/Service/WooPayJp/GateWay/CreditCard.php:141
+msgid "Pay with your credit card via Pay.JP."
+msgstr "﻿Pay.JPを利用してクレジットカード支払いをします。"
+
+#: app/Hametuha/WooCommerce/Service/WooPayJp/GateWay/CreditCard.php:145
+msgid "Sandbox"
+msgstr "﻿サンドボックス"
+
+#: app/Hametuha/WooCommerce/Service/WooPayJp/GateWay/CreditCard.php:146
+msgid "Enable Sandbox Mode"
+msgstr "﻿サンド ボックス モードを有効にします。"
+
+#: app/Hametuha/WooCommerce/Service/WooPayJp/GateWay/CreditCard.php:150
+msgid ""
+"On sandbox mode, real payments will not be taken. Enable this on test "
+"environment. You can find card number for test <a href=\"https://pay.jp/docs/"
+"testcard\">here</a>."
+msgstr ""
+"サンドボックスモードでは、実際の支払いは行われません。テスト環境ではこれを有"
+"効にします。テスト環境のためのカード番号は<a href=\"https://pay.jp/docs/"
+"testcard\">こちら</a>です 。"
+
+#: app/Hametuha/WooCommerce/Service/WooPayJp/GateWay/CreditCard.php:152
+#, php-format
+msgid ""
+"If license is invalid, sandbox mode is always on. You are now <strong>%s</"
+"strong>."
+msgstr ""
+"ライセンスが無効な場合、サンドボックスモードは常にオンとなります。あなたは現"
+"在<strong>%s</strong>です。"
+
+#: app/Hametuha/WooCommerce/Service/WooPayJp/GateWay/CreditCard.php:153
+msgid "Sandbox Mode"
+msgstr "サンド ボックス モード"
+
+#: app/Hametuha/WooCommerce/Service/WooPayJp/GateWay/CreditCard.php:153
+msgid "Live Mode"
+msgstr "本番モード"
+
+#: app/Hametuha/WooCommerce/Service/WooPayJp/GateWay/CreditCard.php:159
+msgid "Capture Payment"
+msgstr "確定支払い"
+
+#: app/Hametuha/WooCommerce/Service/WooPayJp/GateWay/CreditCard.php:160
+msgid "Capture payment after shipment completed."
+msgstr "配送が完了したら支払いを確定する"
+
+#: app/Hametuha/WooCommerce/Service/WooPayJp/GateWay/CreditCard.php:162
+#, php-format
+msgid ""
+"If checked, order with shipping will be charged and payment will be captured "
+"after shipment has been completed. For more details see <a href=\"%s\" "
+"target=\"_blank\">Pay.JP Doc</a>."
+msgstr ""
+"チェックを入れると、配送のある支払いでは配送が完了してから支払いが確定しま"
+"す。詳細は <a href=\"%s\" target=\"_blank\">Pay.JPドキュメント</a>を参照して"
+"ください。"
+
+#: app/Hametuha/WooCommerce/Service/WooPayJp/GateWay/CreditCard.php:166
+msgid "Capture Expiry Days"
+msgstr "確定期日"
+
+#: app/Hametuha/WooCommerce/Service/WooPayJp/GateWay/CreditCard.php:168
+msgid "Capture will be expired in specified days. Order will be canceled."
+msgstr ""
+"指定された日数で支払いは期限切れとなります。オーダーはキャンセルになります。"
+
+#: app/Hametuha/WooCommerce/Service/WooPayJp/GateWay/CreditCard.php:173
+msgid "Visibility"
+msgstr "表示"
+
+#: app/Hametuha/WooCommerce/Service/WooPayJp/GateWay/CreditCard.php:174
+msgid "Hidden on checkout form"
+msgstr "決済フォームから隠す"
+
+#: app/Hametuha/WooCommerce/Service/WooPayJp/GateWay/CreditCard.php:176
+msgid ""
+"If checked, your customer cannot choose this payment method. Useful on "
+"changing gateway on production environment."
+msgstr ""
+"チェックを入れると、顧客はこの支払い方法を選べなくなります。商用環境でゲート"
+"ウェイを変更するときに役立ちます。"
+
+#: app/Hametuha/WooCommerce/Service/WooPayJp/GateWay/CreditCard.php:180
+msgid "Test Private API Key"
+msgstr "テスト用API秘密鍵"
+
+#: app/Hametuha/WooCommerce/Service/WooPayJp/GateWay/CreditCard.php:182
+#: app/Hametuha/WooCommerce/Service/WooPayJp/GateWay/CreditCard.php:189
+#: app/Hametuha/WooCommerce/Service/WooPayJp/GateWay/CreditCard.php:196
+#: app/Hametuha/WooCommerce/Service/WooPayJp/GateWay/CreditCard.php:203
+msgid "You can get it at Pay.JP's dashboard."
+msgstr "Pay.JPのダッシュボードで取得できます。"
+
+#: app/Hametuha/WooCommerce/Service/WooPayJp/GateWay/CreditCard.php:187
+msgid "Test Public API Key"
+msgstr "テスト用API公開鍵"
+
+#: app/Hametuha/WooCommerce/Service/WooPayJp/GateWay/CreditCard.php:194
+msgid "Production Private API Key"
+msgstr "本欄用API秘密鍵"
+
+#: app/Hametuha/WooCommerce/Service/WooPayJp/GateWay/CreditCard.php:201
+msgid "Production Public API Key"
+msgstr "本番用API公開鍵"
+
+#: app/Hametuha/WooCommerce/Service/WooPayJp/GateWay/CreditCard.php:208
+msgid "Apple Pay"
+msgstr "Apple Pay"
+
+#: app/Hametuha/WooCommerce/Service/WooPayJp/GateWay/CreditCard.php:209
+msgid "Enable Apple Pay"
+msgstr "Apple Payを有効にする"
+
+#: app/Hametuha/WooCommerce/Service/WooPayJp/GateWay/CreditCard.php:212
+#, php-format
+msgid ""
+"To use Apple Pay, you have to <a href=\"%1$s\" target=\"_blank\">pass an "
+"inspection</a> on your production environment. Besides that, you also have "
+"to <a href=\"%2$s\">register your domain</a>: <code>%3$s</code>"
+msgstr ""
+"Apple Payを利用するには、本番環境での<a href=\"%1$s\" target=\"_blank\">審査"
+"に通過</a>している必要があります。さらに、<a href=\"%2$s\">ドメインを登録</a>"
+"しなければなりません。: <code>%3$s</code>"
+
+#: app/Hametuha/WooCommerce/Service/WooPayJp/GateWay/CreditCard.php:230
+msgid "This is sandbox environment."
+msgstr "これはサンドボックス環境です。"
+
+#: app/Hametuha/WooCommerce/Service/WooPayJp/GateWay/CreditCard.php:263
+msgid "Card Info"
+msgstr "カード情報"
+
+#: app/Hametuha/WooCommerce/Service/WooPayJp/GateWay/CreditCard.php:269
+msgid "Enter Card Information"
+msgstr "カード番号を入力"
+
+#: app/Hametuha/WooCommerce/Service/WooPayJp/GateWay/CreditCard.php:270
+msgid "Go to Check Out"
+msgstr "チェックアウトする"
+
+#: app/Hametuha/WooCommerce/Service/WooPayJp/GateWay/CreditCard.php:310
+msgid "* for Subscription"
+msgstr "* 定期購入では必須"
+
+#: app/Hametuha/WooCommerce/Service/WooPayJp/GateWay/CreditCard.php:311
+msgid "Save this card for next checkout."
+msgstr "次の支払いのためにカードを保存する"
+
+#: app/Hametuha/WooCommerce/Service/WooPayJp/GateWay/CreditCard.php:312
+msgid "NOTICE: Card number will never be saved."
+msgstr "※ カード番号は保存されません。"
+
+#: app/Hametuha/WooCommerce/Service/WooPayJp/GateWay/CreditCard.php:323
+msgid "Pay with registered Card"
+msgstr "登録されたカードで支払う"
+
+#: app/Hametuha/WooCommerce/Service/WooPayJp/GateWay/CreditCard.php:325
+msgid "Select card..."
+msgstr "カードを選択……"
+
+#: app/Hametuha/WooCommerce/Service/WooPayJp/GateWay/CreditCard.php:374
+msgid "Specified card is currently not available."
+msgstr "指定されたカードは現在利用できません。"
+
+#: app/Hametuha/WooCommerce/Service/WooPayJp/GateWay/CreditCard.php:387
+#, php-format
+msgid "To save credit card, you have to <a href=\"%s\">log in</a>."
+msgstr "カードを保存するには<a href=\"%s\">ログイン</a>する必要があります。"
+
+#: app/Hametuha/WooCommerce/Service/WooPayJp/GateWay/CreditCard.php:400
+msgid "You should register credit card for subscription"
+msgstr "定期購入ではカードを保存する必要があります。"
+
+#: app/Hametuha/WooCommerce/Service/WooPayJp/GateWay/CreditCard.php:419
+#, php-format
+msgid "Transaction %s succeeded."
+msgstr "決済 %s が成功しました。"
+
+#: app/Hametuha/WooCommerce/Service/WooPayJp/GateWay/CreditCard.php:448
+msgid "User of this subscription not found."
+msgstr "この定期購入に紐付いたユーザーが見つかりません。"
+
+#: app/Hametuha/WooCommerce/Service/WooPayJp/GateWay/CreditCard.php:454
+msgid "Parent subscription not found."
+msgstr "定期購入が見つかりませんでした。"
+
+#: app/Hametuha/WooCommerce/Service/WooPayJp/GateWay/CreditCard.php:474
+#, php-format
+msgid "Transaction succeed as ID: %s"
+msgstr "決済成功 ID: %s"
+
+#: app/Hametuha/WooCommerce/Service/WooPayJp/GateWay/CreditCard.php:503
+msgid "This transaction has no card information."
+msgstr "この決済にはカード情報がありません。"
+
+#: app/Hametuha/WooCommerce/Service/WooPayJp/GateWay/CreditCard.php:518
+#, php-format
+msgid "Failed refund: %s"
+msgstr "返金失敗: %s"
+
+#: app/Hametuha/WooCommerce/Service/WooPayJp/GateWay/CreditCard.php:539
+msgid "This order is already expired."
+msgstr "クレジットカードが期限切れです。"
+
+#: app/Hametuha/WooCommerce/Service/WooPayJp/GateWay/CreditCard.php:552
+msgid "Failed to capture"
+msgstr "確定に失敗しました。"
+
+#: app/Hametuha/WooCommerce/Service/WooPayJp/GateWay/Error.php:28
+msgid "Card number is invalid."
+msgstr "﻿カード番号が不正です。"
+
+#: app/Hametuha/WooCommerce/Service/WooPayJp/GateWay/Error.php:29
+msgid "CSC is invalid."
+msgstr "セキュリティコードが不正です。"
+
+#: app/Hametuha/WooCommerce/Service/WooPayJp/GateWay/Error.php:30
+msgid "Invalid expiry month."
+msgstr "有効期限が無効です。"
+
+#: app/Hametuha/WooCommerce/Service/WooPayJp/GateWay/Error.php:31
+msgid "Invalid expiry year"
+msgstr "有効期限が無効です。"
+
+#: app/Hametuha/WooCommerce/Service/WooPayJp/GateWay/Error.php:32
+msgid "This card is expired."
+msgstr "クレジットカードが期限切れです。"
+
+#: app/Hametuha/WooCommerce/Service/WooPayJp/GateWay/Error.php:33
+msgid "This card is declined."
+msgstr "このカードは拒否されました。"
+
+#: app/Hametuha/WooCommerce/Service/WooPayJp/GateWay/Error.php:34
+msgid "Transaction failed processing."
+msgstr "決済処理が失敗しました。"
+
+#: app/Hametuha/WooCommerce/Service/WooPayJp/GateWay/Error.php:35
+#: app/Hametuha/WooCommerce/Service/WooPayJp/GateWay/Error.php:78
+msgid "Customer has no card."
+msgstr "顧客はカードを登録していません。"
+
+#: app/Hametuha/WooCommerce/Service/WooPayJp/GateWay/Error.php:36
+msgid "Invalid ID."
+msgstr "無効なIDです。"
+
+#: app/Hametuha/WooCommerce/Service/WooPayJp/GateWay/Error.php:37
+msgid "API key is not set."
+msgstr "APIキーがセットされていません。"
+
+#: app/Hametuha/WooCommerce/Service/WooPayJp/GateWay/Error.php:38
+msgid "Invalid API key."
+msgstr "無効なAPIキーです。"
+
+#: app/Hametuha/WooCommerce/Service/WooPayJp/GateWay/Error.php:39
+msgid "Invalid plan."
+msgstr "プランが無効です。"
+
+#: app/Hametuha/WooCommerce/Service/WooPayJp/GateWay/Error.php:40
+msgid "Invalid expiry days."
+msgstr "失効予定日が無効です。"
+
+#: app/Hametuha/WooCommerce/Service/WooPayJp/GateWay/Error.php:41
+msgid "Expiry days are unnecessary."
+msgstr "失効予定日は不要です。"
+
+#: app/Hametuha/WooCommerce/Service/WooPayJp/GateWay/Error.php:42
+msgid "Invalid ID specified."
+msgstr "無効なIDが指定されました。"
+
+#: app/Hametuha/WooCommerce/Service/WooPayJp/GateWay/Error.php:43
+msgid "Invalid Unix timestamp."
+msgstr "無考なタイムスタンプです。"
+
+#: app/Hametuha/WooCommerce/Service/WooPayJp/GateWay/Error.php:44
+msgid "Invalid trial end."
+msgstr "トライアルの終了日が不正です。"
+
+#: app/Hametuha/WooCommerce/Service/WooPayJp/GateWay/Error.php:45
+msgid "Invalid string length."
+msgstr "文字列の長さが不正です。"
+
+#: app/Hametuha/WooCommerce/Service/WooPayJp/GateWay/Error.php:46
+msgid "Invalid country code."
+msgstr "国コードが不正です。"
+
+#: app/Hametuha/WooCommerce/Service/WooPayJp/GateWay/Error.php:47
+msgid "Invalid currency code."
+msgstr "通貨コードが不正です。"
+
+#: app/Hametuha/WooCommerce/Service/WooPayJp/GateWay/Error.php:48
+msgid "Invalid zip code."
+msgstr "郵便番号が不正です。"
+
+#: app/Hametuha/WooCommerce/Service/WooPayJp/GateWay/Error.php:49
+msgid "Invalid payment amount."
+msgstr "支払い総額が不正です。"
+
+#: app/Hametuha/WooCommerce/Service/WooPayJp/GateWay/Error.php:50
+msgid "Invalid plan amount."
+msgstr "定期購入プランの総額が不正です。"
+
+#: app/Hametuha/WooCommerce/Service/WooPayJp/GateWay/Error.php:51
+msgid "Invalid card."
+msgstr "不正なカードです。"
+
+#: app/Hametuha/WooCommerce/Service/WooPayJp/GateWay/Error.php:52
+msgid "Invalid customer."
+msgstr "不正な顧客情報です。"
+
+#: app/Hametuha/WooCommerce/Service/WooPayJp/GateWay/Error.php:53
+msgid "Invalid value."
+msgstr "不正な値です。"
+
+#: app/Hametuha/WooCommerce/Service/WooPayJp/GateWay/Error.php:54
+msgid "Invalid mail address."
+msgstr "無効なメールアドレスです。"
+
+#: app/Hametuha/WooCommerce/Service/WooPayJp/GateWay/Error.php:55
+msgid "Parameter is not allowed."
+msgstr "パラメーターは許可されていません。"
+
+#: app/Hametuha/WooCommerce/Service/WooPayJp/GateWay/Error.php:56
+msgid "No parameter is set."
+msgstr "パラメーターがセットされていません。"
+
+#: app/Hametuha/WooCommerce/Service/WooPayJp/GateWay/Error.php:57
+msgid "Query string is invalid."
+msgstr "クエリ文字列が無効です。"
+
+#: app/Hametuha/WooCommerce/Service/WooPayJp/GateWay/Error.php:58
+msgid "Required parameter is not set."
+msgstr "必須のパラメータがセットされていません。"
+
+#: app/Hametuha/WooCommerce/Service/WooPayJp/GateWay/Error.php:59
+msgid "Parameter key is invalid."
+msgstr "パラメーターキーが無効です。"
+
+#: app/Hametuha/WooCommerce/Service/WooPayJp/GateWay/Error.php:60
+msgid "Payment method is not specified."
+msgstr "支払い方法が指定されていません。"
+
+#: app/Hametuha/WooCommerce/Service/WooPayJp/GateWay/Error.php:61
+msgid "Payment method is duplicated."
+msgstr "支払い方法が重複しています。"
+
+#: app/Hametuha/WooCommerce/Service/WooPayJp/GateWay/Error.php:62
+msgid "Payment method or cusomer name is duplicated."
+msgstr "支払い方法または顧客名が重複しています。"
+
+#: app/Hametuha/WooCommerce/Service/WooPayJp/GateWay/Error.php:63
+msgid "Specified payment is failed."
+msgstr "指定された支払い方法は失敗しました。"
+
+#: app/Hametuha/WooCommerce/Service/WooPayJp/GateWay/Error.php:64
+msgid "Invalid refund amount."
+msgstr "返金総額が不正です。"
+
+#: app/Hametuha/WooCommerce/Service/WooPayJp/GateWay/Error.php:65
+msgid "Already refunded."
+msgstr "すでに返金済みです。"
+
+#: app/Hametuha/WooCommerce/Service/WooPayJp/GateWay/Error.php:66
+msgid "Partial refund is allowed only once."
+msgstr "部分決済は一回限りです。"
+
+#: app/Hametuha/WooCommerce/Service/WooPayJp/GateWay/Error.php:67
+msgid "Not refundable because the transaction is not finished."
+msgstr "決済が完了していないため、返金できません。"
+
+#: app/Hametuha/WooCommerce/Service/WooPayJp/GateWay/Error.php:68
+msgid "Refund amount is greater than net amount."
+msgstr "返金額が購入金額よりも大きいです。"
+
+#: app/Hametuha/WooCommerce/Service/WooPayJp/GateWay/Error.php:69
+msgid "Captured amout is greater than net amount."
+msgstr "引き落とし額が購入金額よりも大きいです。"
+
+#: app/Hametuha/WooCommerce/Service/WooPayJp/GateWay/Error.php:70
+msgid "Invalid refund reason."
+msgstr "返金理由が不正です。"
+
+#: app/Hametuha/WooCommerce/Service/WooPayJp/GateWay/Error.php:71
+msgid "Already captured."
+msgstr "すでに引き通し済みです。"
+
+#: app/Hametuha/WooCommerce/Service/WooPayJp/GateWay/Error.php:72
+msgid "Failed to capture because it's already refunded."
+msgstr "すでに返金済みなので引き落としできませんでした。"
+
+#: app/Hametuha/WooCommerce/Service/WooPayJp/GateWay/Error.php:73
+msgid "This charge is expired."
+msgstr "このカードは期限切れです。"
+
+#: app/Hametuha/WooCommerce/Service/WooPayJp/GateWay/Error.php:74
+msgid "This ID already exists."
+msgstr "このIDはすでに存在します。"
+
+#: app/Hametuha/WooCommerce/Service/WooPayJp/GateWay/Error.php:75
+msgid "Token is already used."
+msgstr "トークンはすでに使用済みです。"
+
+#: app/Hametuha/WooCommerce/Service/WooPayJp/GateWay/Error.php:76
+msgid "Card is already registered with this customer."
+msgstr "この顧客はそのカードをすでに登録しています。"
+
+#: app/Hametuha/WooCommerce/Service/WooPayJp/GateWay/Error.php:77
+msgid "Customer doesn't have specified card."
+msgstr "顧客は指定されたカードを持っていません。"
+
+#: app/Hametuha/WooCommerce/Service/WooPayJp/GateWay/Error.php:79
+msgid "Invalid subscription interval."
+msgstr "無効な定期購入期間です。"
+
+#: app/Hametuha/WooCommerce/Service/WooPayJp/GateWay/Error.php:80
+msgid "Invalid trial days."
+msgstr "無効なトライアル期間です。"
+
+#: app/Hametuha/WooCommerce/Service/WooPayJp/GateWay/Error.php:81
+msgid "Invalid billing day."
+msgstr "支払日が無効です。"
+
+#: app/Hametuha/WooCommerce/Service/WooPayJp/GateWay/Error.php:82
+msgid "The plan cannot be deleted because it has customer."
+msgstr "顧客が所有しているためプランを削除できません。"
+
+#: app/Hametuha/WooCommerce/Service/WooPayJp/GateWay/Error.php:83
+msgid "Customer is already subscribing."
+msgstr "顧客はすでに定期購読済みです。"
+
+#: app/Hametuha/WooCommerce/Service/WooPayJp/GateWay/Error.php:84
+msgid "Customer has already canceled."
+msgstr "この顧客はすでにキャンセルしています。"
+
+#: app/Hametuha/WooCommerce/Service/WooPayJp/GateWay/Error.php:85
+msgid "Subscription is already paused."
+msgstr "定期購読はすでに停止されました。"
+
+#: app/Hametuha/WooCommerce/Service/WooPayJp/GateWay/Error.php:86
+msgid "Subscription is already working."
+msgstr "定期購入はすでに有効です。"
+
+#: app/Hametuha/WooCommerce/Service/WooPayJp/GateWay/Error.php:87
+msgid "Test card is used on live mode."
+msgstr "テストカードが本番環境で使われています。"
+
+#: app/Hametuha/WooCommerce/Service/WooPayJp/GateWay/Error.php:88
+msgid "Account is not activated."
+msgstr "アカウントが有効になっていません。"
+
+#: app/Hametuha/WooCommerce/Service/WooPayJp/GateWay/Error.php:89
+msgid "Request exceeds test limit."
+msgstr "リクエストがテストの制限を超えました。"
+
+#: app/Hametuha/WooCommerce/Service/WooPayJp/GateWay/Error.php:91
+msgid "An error occurs on PAY.JP."
+msgstr "Pay.JPでエラーが発生しました。"
+
+#: app/Hametuha/WooCommerce/Service/WooPayJp/GateWay/Error.php:92
+msgid "An error occurs on Payment Agency."
+msgstr "決済代行業者でエラーが発生しました。"
+
+#: app/Hametuha/WooCommerce/Service/WooPayJp/GateWay/Error.php:93
+msgid "Endpoint not found."
+msgstr "エンドポイントが見つかりませんでした。"
+
+#: app/Hametuha/WooCommerce/Service/WooPayJp/GateWay/Error.php:94
+msgid "Method is not allowed."
+msgstr "メソッドは許可されていません。"
+
+#: app/Hametuha/WooCommerce/Service/WooPayJp/Member.php:121
+msgid "User doesn't exist."
+msgstr "ユーザーは存在しません。"
+
+#: app/Hametuha/WooCommerce/Service/WooPayJp/Tabs/CardList.php:27
+msgid "Registered Cards"
+msgstr "登録されたカード"
+
+#: app/Hametuha/WooCommerce/Service/WooPayJp/Validator/Requirement.php:24
+msgid "Pay.JP requires WooCommerce Version 3.0 and over!"
+msgstr "Pay.JPはWooCommerce 3.0 以上必須です。"
+
+#: app/Hametuha/WooCommerce/Service/WooPayJp/Validator/Requirement.php:37
+msgid "Pay.JP supports only JPY."
+msgstr "Pay.JPは日本円しかサポートしていません。"
+
+#: sekisyo.php:10
+msgid "WooPayJP Single License"
+msgstr "WooPayJPシングルライセンス"
+
+#: sekisyo.php:11
+msgid "You can install WooPayJP for this site"
+msgstr "このサイトにWooPayJPをインストールできます。"
+
+#: sekisyo.php:19 sekisyo.php:28
+#, php-format
+msgid "WooPayJP %d License"
+msgstr "WooPayJP %d ライセンス"
+
+#: sekisyo.php:20 sekisyo.php:29
+#, php-format
+msgid "You can install WooPayJP for %1$d sites including %2$s"
+msgstr "WooPayJPを%2$sを含む%1$dサイトにインストールできます。"
+
+#: sekisyo.php:50
+#, php-format
+msgid ""
+"[WooPay.JP] license is invalid. Please go to <a href=\"%s\">setting page</a> "
+"and enter license. If you don't have one, grab license at <a href=\"%s\" "
+"target=\"_blank\">gianism.info</a>! "
+msgstr ""
+"[WooPay.JP]ライセンスが無効です。<a href=\"%s\">設定ページ</a>へ行き、ライセ"
+"ンスを入力してください。お持ちでない場合は<a href=\"%s\" target=\"_blank"
+"\">gianism.info</a>でライセンスを取得してください！"
+
+#: sekisyo.php:56
+msgid "If this is test environment, it's O.K."
+msgstr "これがテスト環境であれば問題ありません。"
+
+#: woopay-jp.php:52
+#, php-format
+msgid "Plugin %s requires PHP %s and over, but your PHP is %s"
+msgstr "プラグイン%sはPHP%s以上が必須です。あなたのPHPは%sです。"
+
+#: woopay-jp.php:62
+msgid "Composer auto loader missing. Please run \"composer install\"."
+msgstr ""
+"Composerのオートローダーがありません。composer installは実行しましたか？"
+
+#: woopay-jp.php:72
+msgid "Add Pay.JP payment gateway to WooCommerce."
+msgstr "WooCommerceにPay.JPの決済モジュールを追加します。"
+
+#~ msgid "Name on Card"
+#~ msgstr "カード名義"
+
+#~ msgid "Save"
+#~ msgstr "﻿保存"
+
+#~ msgid "Pay.JP doesn't allow partial refund more than 2 times."
+#~ msgstr "Pay.JPは2回以上の部分返金を許可していません。"
+
+#, fuzzy
+#~ msgid "You can install WooPayJP for %1$d sites including %s$s"
+#~ msgstr "WooPayJPを%dサイト（%sを含む）にインストールできます。"

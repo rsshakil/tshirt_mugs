@@ -1,0 +1,12 @@
+[
+"addons/admin/config/instagram.php",
+"addons/admin/language/upload-instagram.ini",
+"addons/install/upload-instagram.json",
+"addons/js/upload-instagram.js",
+"addons/language/instagram.ini",
+"addons/includes/ins.php",
+"addons/upload-content/upload_instagram.php",
+"addons/upload-label/upload_instagram.php",
+"addons/remove/upload-instagram.json",
+"upload_instagram.php"
+]

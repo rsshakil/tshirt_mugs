@@ -1,0 +1,12 @@
+[
+"addons/admin/css/product.css",
+"addons/admin/design-options/product.php",
+"addons/admin/js/product.js",
+"addons/admin/product-extra/elments.php",
+"addons/admin-js/product-build.js",
+"addons/hooks/cart/productColors.php",
+"addons/install/product-build.json",
+"addons/js/product-build.js",
+"addons/language/product_builder.ini",
+"addons/product/builder.php"
+]

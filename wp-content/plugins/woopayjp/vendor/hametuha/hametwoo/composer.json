@@ -1,0 +1,26 @@
+{
+    "name": "hametuha/hametwoo",
+    "description": "A utility classes for WooCommerce development",
+    "type": "library",
+    "license": "GPLv3+",
+    "authors": [
+        {
+            "name": "fumikito",
+            "email": "guy@hametuha.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.8",
+        "squizlabs/php_codesniffer": "~2.8",
+        "wp-coding-standards/wpcs": "~0.11"
+    },
+    "autoload": {
+        "psr-0": {
+            "Hametuha\\HametWoo": "src/"
+        }
+    }
+}

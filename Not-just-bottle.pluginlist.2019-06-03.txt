@@ -1,0 +1,89 @@
+------------------------------------------------------------
+  Plugin list generated with BackWPup version: 3.6.9
+  http://backwpup.com
+  Blog Name: Not just bottle
+  Blog URL: http://18.220.175.18
+  Generated on: 2019-06-03 09:11.54
+------------------------------------------------------------
+
+
+All plugin information:
+------------------------------
+Akismet Anti-Spam (v.4.1.1) from Automattic
+	https://akismet.com/
+All-in-One WP Migration (v.6.89) from ServMask
+	https://servmask.com/
+All In One SEO Pack (v.2.12) from Michael Torbert
+	https://semperplugins.com/all-in-one-seo-pack-pro-version/
+Amazon AI (v.3.0.3) from AWS Labs, WP Engine
+	https://wordpress.org/plugins/amazon-polly/
+BackWPup (v.3.6.9) from Inpsyde GmbH
+	http://backwpup.com
+Contact Form 7 (v.5.1.1) from Takayuki Miyoshi
+	https://contactform7.com/
+Custom My Account for Woocommerce (v.1.3.9) from phoeniixx
+	http://www.phoeniixx.com
+Fragrance Theme Extensions (v.1.0.0) from Fragrance
+	
+Google Analytics for WordPress by MonsterInsights (v.7.5.0) from MonsterInsights
+	https://www.monsterinsights.com/?utm_source=liteplugin&utm_medium=pluginheader&utm_campaign=pluginurl&utm_content=7%2E0%2E0
+Hello Dolly (v.1.7.1) from Matt Mullenweg
+	http://wordpress.org/plugins/hello-dolly/
+Jetpack by WordPress.com (v.7.2.1) from Automattic
+	https://jetpack.com
+PanoPress (v.1.3) from <a href="http://www.omercalev.com">Omer Calev</a> & <a href="http://www.samrohn.com">Sam Rohn</a>
+	http://www.panopress.org/
+Simple PAY.JP Payment (v.0.1.5) from koyacode
+	https://it-soudan.com/simple-payjp-payment/
+Simple Tags (v.2.4.7) from Amaury BALMER
+	https://github.com/herewithme/simple-tags
+WooCommerce (v.3.6.2) from Automattic
+	https://woocommerce.com/
+WooCommerce Custom Product Designer (v.4.4.1) from tshirtecommerce.com
+	http://tshirtecommerce.com
+WooCommerce For Japan (v.1.2.27) from Artisan Workshop
+	https://wordpress.org/plugins/woocommerce-for-japan/
+WooCommerce PayPal Checkout Gateway (v.1.6.11) from WooCommerce
+	https://woocommerce.com/products/woocommerce-gateway-paypal-express-checkout/
+WooCommerce Services (v.1.19.0) from Automattic
+	https://woocommerce.com/
+WooCommerce Square (v.1.0.37) from WooCommerce
+	https://woocommerce.com/products/square/
+WooCommerce Stripe Gateway (v.4.1.16) from WooCommerce
+	https://wordpress.org/plugins/woocommerce-gateway-stripe/
+WordPress Importer (v.0.6.4) from wordpressdotorg
+	https://wordpress.org/plugins/wordpress-importer/
+WPBakery Visual Composer (v.4.12) from Michael M - WPBakery.com
+	http://vc.wpbakery.com
+WP Mail SMTP (v.1.4.2) from WPForms
+	https://wpforms.com/
+
+Active plugins:
+------------------------------
+BackWPup
+Contact Form 7
+Custom My Account for Woocommerce
+Fragrance Theme Extensions
+Simple PAY.JP Payment
+WooCommerce
+WooCommerce Custom Product Designer
+WooCommerce For Japan
+WooCommerce PayPal Checkout Gateway
+WooCommerce Services
+WooCommerce Stripe Gateway
+WordPress Importer
+WPBakery Visual Composer
+WP Mail SMTP
+
+Inactive plugins:
+------------------------------
+Akismet Anti-Spam
+All-in-One WP Migration
+All In One SEO Pack
+Amazon AI
+Google Analytics for WordPress by MonsterInsights
+Hello Dolly
+Jetpack by WordPress.com
+PanoPress
+Simple Tags
+WooCommerce Square
